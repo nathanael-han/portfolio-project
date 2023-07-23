@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="portfolio.js"></script>
+</head>
+<body>
+    <header>
+        <div id="topbar">
+            <h4>Nathanael Han - DGMD E20</h4>
+        </div>
+
+        <nav>
+            <div class="flex-navigation">
+                <div><a href="index.html">Home</a></div>
+                <div><a href="about.html">About</a></div>
+                <div><a href="portfolio.html">Portfolio</a></div>
+                <div><a href="services.html">Services</a></div>
+                <div><a href="contact.html">Contact</a></div>  
+          </div>
+        </nav>
+    </header>
+    <main>
+        <audio controls>
+            <source src="./assets/lofi.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <h3 class = "page_title">Services</h3>
+        <div class = "code_logo">
+            <img id = "js_logo" src="./assets/js_logo.png" alt="JS Logo" onclick = "clicking('./assets/click.mp3')" >
+            <img id = "html_logo" src="./assets/html_l.png" alt="HTML logo" onclick = "clicking('./assets/click.mp3')">
+            <img id = "css_logo" src="./assets/css_logo.svg" alt="CSS Logo" onclick= "clicking('./assets/click.mp3')">
+        </div>
+        <audio id = "click" src="./assets/click.mp3"></audio>
+    </main>
+        
+    <footer>
+        <p>Assignment 15</p> 
+    </footer>
+</body>
+</html>

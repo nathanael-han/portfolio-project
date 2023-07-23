@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="portfolio.js"></script>
+</head>
+<body>
+    <header>
+        <div id="topbar">
+            <h4>Nathanael Han - DGMD E20</h4>
+        </div>
+
+        <nav>
+            <div class="flex-navigation">
+                <div><a href="index.html">Home</a></div>
+                <div><a href="about.html">About</a></div>
+                <div><a href="portfolio.html">Portfolio</a></div>
+                <div><a href="services.html">Services</a></div>
+                <div><a href="contact.html">Contact</a></div>  
+          </div>
+        </nav>
+    </header>
+    <main>
+        <audio controls>
+            <source src="./assets/lofi.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <h4 id = "contact_heading" >Contact Me</h4>
+        <img id = "mail_gif" src="./assets/mail.gif" alt="GIF of an opening envelope">
+        <div class = "contact">
+            <form name = "contact_form" action="" method="post" >
+               <label for="first_name">First Name:</label>
+               <input type="text" name="first_name" id="first_name" placeholder = "Your First Name" required> <br><br>
+               <label for="last_name">Last Name:</label>
+               <input type="text" name="last_name" id="last_name" placeholder = "Your Last Name" required> <br><br>
+               <label for="comm_info1">Phone Number:</label>
+               <input type="text" name="comm_info1" id="comm_info1" placeholder = "Your Phone Number"> <br><br>
+               <label for="comm_info2">Email:</label>
+               <input type="text" name="comm_info2" id="comm_info2" placeholder = "Your Email"> <br><br>
+               <label for="message">Your Message:</label><br>
+               <textarea id="message" name="message" placeholder = "Maximum: 300 Characters" rows="10" cols="90" required maxlength="300"></textarea>
+               <br>
+               <input id = "text_button" type="submit" name = "submit" value="Submit">
+            </form>
+         </div>
+
+
+
+    </main>
+        
+    <footer>
+        <p>Assignment 15</p> 
+    </footer>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="portfolio.js"></script>
+     <!-- IMG ANIMATION LIBRARY: https://michalsnik.github.io/aos/ -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body>
+    <header>
+        <div id="topbar">
+            <h4>Nathanael Han - DGMD E20</h4>
+        </div>
+        <nav>
+            <div class="flex-navigation">
+                <div><a href="index.html">Home</a></div>
+                <div><a href="about.html">About</a></div>
+                <div><a href="portfolio.html">Portfolio</a></div>
+                <div><a href="services.html">Services</a></div>
+                <div><a href="contact.html">Contact</a></div>  
+          </div>
+        </nav>
+    </header>
+    <main>
+        <audio controls>
+            <source src="./assets/lofi.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <h3 class = "page_title">Portfolio</h3>
+
+        <div class="portfolio_items">
+            <img class = "item" src="./assets/1.png" alt="Portfolio" data-aos="flip-left" aos-duration="2000">
+            <img class = "item" src="./assets/2.png" alt="Portfolio" data-aos="flip-right" aos-duration="2000">
+            <img class = "item" src="./assets/3.png" alt="Portfolio" data-aos="flip-left" aos-duration="2000">
+            <img class = "item" src="./assets/4.png" alt="Portfolio" data-aos="flip-right" aos-duration="2000">
+            <img class = "item" src="./assets/5.png" alt="Portfolio" data-aos="flip-left" aos-duration="2000">
+        </div>
+        <iframe id= "youtube" width="560" height="315" src="https://www.youtube.com/embed/6DdUkxajANs?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" allowfullscreen></iframe>
+
+    </main>
+        
+    <footer>
+        <p>Assignment 15</p> 
+    </footer>
+    <script>
+        AOS.init({
+            duration: 1200,
+        });
+      </script>
+</body>
+</html>
